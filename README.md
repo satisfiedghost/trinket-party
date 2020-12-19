@@ -7,6 +7,6 @@ TODO:
 
 * ~~Create Servo Driver~~
 * Interesting LED routines
-* Please please please get of Ardiuno IDE
+* Please please please get off Ardiuno IDE
 * Better songs.
 * General cleanup.
