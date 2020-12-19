@@ -1,4 +1,4 @@
-constexpr uint32_t g_isr1_frequency = 18E3;
+constexpr uint32_t g_isr1_frequency = 10E3;
 constexpr uint32_t MM = 1E6;
 constexpr uint8_t OCR1C_cmp_count = MM/ g_isr1_frequency;
 
