@@ -1,7 +1,8 @@
 #pragma once
 
 namespace Music {
-  
+
+// Representation of time. Ooooh. Spooky!
 typedef enum time : uint8_t {
   Rest = 0,
   Eighth = 1,
@@ -12,6 +13,7 @@ typedef enum time : uint8_t {
   Whole = 6,
 }time;
 
+// Given an enum time, convert it to milliseconds
 uint32_t time_to_ms(time t) {
   uint32_t delay_time = 0;
   switch (t) {
